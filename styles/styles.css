@@ -8,8 +8,15 @@ header, section, footer, marquee{
     padding: 0;
     max-width: 80vw;
 }
-section{
-    margin-bottom: 3.75rem;
+.curriculum, .stories{
+   padding-top: 3.75rem;
+}
+.section-title{
+    color: #000;
+    text-align: center;
+    font-size: 2.875rem;
+    font-weight: 700;
+    margin-bottom: 5rem;
 }
 body{
     background-color: rgba(247, 247, 247, 1);
@@ -100,6 +107,14 @@ marquee{
     font-weight: 400;
     margin: 1.5rem 0;
 }
+/* curriculum styles */
+.curriculum{
+    background-image: url("../assets/bg.png");
+    background-size: cover;
+}
+
+
+
 /* media queries */
 @media screen and (max-width: 576px) {
     /* universal styles */
@@ -108,11 +123,15 @@ marquee{
         padding: 0;
         max-width: 80vw;
     }
-    section{
-        margin-bottom: 3.75rem;
-    }
     img{
         width: 80%;
+    }
+    .section-title{
+        color: #000;
+        text-align: center;
+        font-size: 2.875rem;
+        font-weight: 700;
+        margin-bottom: 1.25rem;
     }
     /* nav styles */
 
@@ -136,7 +155,7 @@ marquee{
     }
     .nav-items4{
         display: block;
-        width: 30px;
+        width: 2rem;
     }
     #hero{
         flex-direction: column-reverse ;
