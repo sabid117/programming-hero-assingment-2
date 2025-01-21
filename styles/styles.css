@@ -86,7 +86,7 @@ marquee{
 .nav-items2 > ul > li > a{
     text-decoration: none;
     font-size: 1.25rem;
-    font-weight: 700;
+    font-weight: 500;
 }
 .nav-btn{
      font-size: 1.25rem;
@@ -216,14 +216,14 @@ marquee{
     padding: 1rem;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
+    border-radius: 100%;
     background: #FEA301;
     border: none;
     color: white;
     transition: 0.5s ease-in-out;
 }
 .curriculum-arrow button:hover{
-    background-color: rgba(146, 129, 255, 0.572);
+    background-color: rgba(210, 208, 227, 0.572);
     color: #a3e8ff;
 }
 /* stories section styles */
@@ -324,11 +324,65 @@ marquee{
 .stories-btn{
     padding: 0.625rem 3.5rem;
     margin-bottom: 3.75rem;
+    font-size: 1.25rem;
+    font-weight: 700;
 }
 
+/* footer section styles */
+footer{
+    width: 100%;
+    background: rgb(1, 172, 253);
+}
+.footer{
+    margin: 0 auto;
+    color: white;
+    max-width: 1160px;
+    padding: 7.68rem 0rem 10.875rem 0em;
+    display: flex;
+}
 
-
-
+.kid-edu{
+    display: flex;
+    margin-bottom: 2.25rem;
+}
+.footer-title{
+    font-size: 2.63rem;
+    font-weight: 700;
+    line-height: 39.509px; /* 93.75% */
+}
+.footer-description{
+    font-size: 1.25rem;
+    font-weight: 400;
+    max-width: 25rem;
+}
+.footer-col1{
+    margin-right: 13rem;
+}
+.about-school{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+.links > a{
+    text-decoration: none;
+    color: white;
+}
+.footer-col2{
+    margin-right: 9rem;
+}
+.socials-title{
+    font-size: 1.625rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.socials-img a{
+    margin-right: 0.63rem;
+}
 
 
 
@@ -358,7 +412,7 @@ marquee{
         max-width: 100vw;
     }
     #hero img{
-        width: 100%;
+        width: 91%;
     }
     .section-title{
         color: #000;
@@ -411,6 +465,7 @@ marquee{
     }
     .hero-description{
         font-size: 0.85rem;
+        font-weight: 500;
     }
     .section-title{
         font-size: 1.5rem;
@@ -456,13 +511,16 @@ marquee{
         background-size: 200%;
         background-repeat: no-repeat;
     }
+    .stories-container{
+        margin-bottom: 1.25rem;
+    }
     .stories-col1{
         display: none;
     }
     .stories-col2{
         margin: 0 auto;
+        gap: 0.7rem;
         width: 91%; 
-        gap: 0.68rem;
     }
     .dates{
         font-size: 0.57rem;
@@ -471,8 +529,59 @@ marquee{
         margin-top: -1.4rem;
     }
     .small-card-title{
+        color: #000;
         font-size: 0.57rem;
         font-weight: 700;
+        padding: 1.6rem 2rem 1.25rem 1.4rem;
     }
+    
+    .stories-btn{
+        padding: 0.625rem 3rem;
+        margin-bottom: 2.5rem;
+        border-radius: 1rem;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    /* footer section styles */
 
+    .footer{
+        max-width: 91%;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 4.125rem 0 3.75rem 0;
+    }
+    .footer-col1,.footer-col2{
+        margin-right: 0;
+    }
+    .footer-title{
+        font-size: 2.25rem;
+        font-weight: 700;
+    }
+    .kid-edu{
+        margin-bottom: 1.43rem;
+    }
+    .footer-description{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 2rem;
+    }
+    .about-school{
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+    .links{
+        gap: 1rem;
+    }
+    .footer-col2{
+        margin-bottom: 2rem;
+    }
+    .socials-title{
+        font-size: 1.375rem;
+        font-weight: 700;
+        margin-bottom: 2.31rem;
+    }
+    .socials-img a{
+        margin-right: 0.5rem;
+    }
 }
+    
